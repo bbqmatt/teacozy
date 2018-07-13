@@ -4,28 +4,36 @@ body {
   color: seashell;
   background-color: black;
   opacity: 0.9;
+  margin-top: 0px;
 }
 
 h1, h2, h4, h5 {
   text-align: center;
-  margin-bottom: 1px;
+  margin: 0px;
+  padding: 10px;
 }
 
 header {
   display: flex;
-  padding: 10px;
   position: fixed;
   z-index: 1;
   height: 69px;
   width: 100%;
   border-bottom: 1px solid seashell;
   align-items: center;
+  margin-left: 10px;
+  background-color: black;
+}
+
+nav {
+  margin-right: 30px;
 }
 
 nav a {
   text-decoration: underline;
   display: inline-block;
-  padding-right: 40px;
+  color: white;
+  padding: 20px 10px;
 }
 
 .logo {
@@ -40,8 +48,8 @@ nav a {
 .maincontent {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
+  padding-top: 70px;
 }
 
 .mission {
@@ -49,7 +57,6 @@ nav a {
   width: 1200px;
   height: 700px;
   background-image: url('../images/img-mission-background.jpg');
-  justify-content: center;
   align-items: center;
   margin-bottom: 30px;
 }
@@ -57,9 +64,6 @@ nav a {
 .mission_content {
   background-color: black;
   width: 1200px;
-  flex-direction: column;
-  height:auto;
-  text-align: center;
 }
 
 .TeaOfMonth {
@@ -67,12 +71,11 @@ nav a {
   width: 1000px;
   justify-content: center;
   flex-wrap: wrap;
-  flex-direction: row;
   margin-bottom: 50px;
 }
 
 .TeaOfMonth_content {
-  margin: 30px 10px;
+  margin: 10px 10px;
 }
 
 .TeaOfMonth img{
@@ -93,14 +96,13 @@ nav a {
   height: 500px;
   width: 1200px;
   align-items: center;
-  margin-bottom: 10px;
 }
 
 .locations_content{
   background-color: black;
   opacity: 1;
   width: 300px;
-  margin: 15px 40px;
+  margin: 15px 20px;
   text-align: center;
 }
 
